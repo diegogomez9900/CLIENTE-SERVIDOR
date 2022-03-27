@@ -1,0 +1,7 @@
+RECOMENDACIONES:
+
+*Para correr cualquiera de los tres paquetes, siempre iniciar el servidor antes del cliente.
+*En caso de que el juego no deje iniciar por que el puerto este en uso, solo cambiarlo en cliente y servidor
+*El paquete de parques un tablero, solo requiere correr un cliente y un servidor, en el cliente se jugara una partida de parques con cuatro jugadores
+*El paquete de parques socket-hilos, correr un servidor, y correr cuatro veces o menos el archivo cliente, tiene algunos fallos en la comunicacion esta version.
+*El paquete de parques zmq, correr un servidor, y correr cuatro veces o menos el archivo cliente, esta version no usa hilos
